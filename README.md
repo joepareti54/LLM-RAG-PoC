@@ -15,7 +15,7 @@ A minimal, memory-efficient implementation of Retrieval-Augmented Generation usi
 - Python 3.8+
 - CUDA-capable GPU with 6GB+ VRAM
 - Hugging Face account with access to Llama 2 to acquire the credentials (token)
-- your own ppdf files. The code is adapted for colab but can be easily changed
+- your own pdf files. The code is adapted for colab but can be easily changed
 
 ## Setup
 - Get your Hugging Face token from https://huggingface.co/settings/tokens
