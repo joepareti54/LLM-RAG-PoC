@@ -23,6 +23,3 @@ A minimal, memory-efficient implementation of Retrieval-Augmented Generation usi
 import os
 os.environ['HUGGINGFACE_TOKEN'] = 'your-token-here'  # Replace with your actual token
 
-## Quick Start
-```bash
-pip install -r requirements.txt
