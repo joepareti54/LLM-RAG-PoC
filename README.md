@@ -16,7 +16,7 @@ This initial release targets Colab users.
 - Python 3.8+
 - CUDA-capable GPU with 6GB+ VRAM
 - Hugging Face account with access to Llama 2 to acquire the credentials (token)
-- your own pdf files. The code is adapted for Colab. If you want to perate on a local system you may replace the last cell with:
+- your own pdf files. The code is adapted for Colab. If you want to operate the program on a local system you may replace the last notebook cell with:
   
 ```def main():
     from google.colab import drive
@@ -49,11 +49,12 @@ import os
 os.environ['HUGGINGFACE_TOKEN'] = 'your-token-here'  # Replace with your actual token
 ```
 
-- modify the storage path as described in the code 
+- modify the storage path as described in the code
+- in Colab: change runtime type to T4 GPU
 
 ## Maintenance
 
-Refer to this [document](https://docs.google.com/document/d/1pswnEtkYJGR1wkOdShzRw3Sqit-no3POa_v2abXk7uU/edit?usp=sharing)
+Refer to the maintenance paragraph in this [document](https://docs.google.com/document/d/1pswnEtkYJGR1wkOdShzRw3Sqit-no3POa_v2abXk7uU/edit?usp=sharing)
 
 
 
